@@ -4,7 +4,7 @@
   <artifactId>CarsProjectAlbert</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <properties>
-	<sonar.projectKey>bjjclimbing_CarsProjectAlbert</sonar.projectKey>
+    <sonar.projectKey>bjjclimbing_CarsProjectAlbert</sonar.projectKey>
     <sonar.organization>bjjclimbing</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
@@ -16,9 +16,16 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
         <configuration>
-		  <sonar.analysis.mode>preview</sonar.analysis.mode>
           <source>9</source>
           <target>9</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.11.0.3922</version>
+        <configuration>
+          <sonar.analysis.mode>preview</sonar.analysis.mode>
         </configuration>
       </plugin>
     </plugins>
