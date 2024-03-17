@@ -14,10 +14,11 @@
       <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.11.0.3922</version>
+        <version>3.1</version>
         <configuration>
           <sonar.analysis.mode>preview</sonar.analysis.mode>
-          <release>14</release>
+          <source>7</source>
+          <target>7</target>
         </configuration>
       </plugin>
     </plugins>
