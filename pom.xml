@@ -35,7 +35,7 @@
         <version>3.11.0.3922</version>
         <configuration>
           <!-- Desactivar el análisis de CI -->
-          <sonar.analysis.mode>issues</sonar.analysis.mode>
+          <sonar.analysis.mode>preview</sonar.analysis.mode>
         </configuration>
       </plugin>
     </plugins>
