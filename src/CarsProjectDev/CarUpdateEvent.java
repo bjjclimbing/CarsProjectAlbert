@@ -21,7 +21,7 @@ public class CarUpdateEvent extends java.util.EventObject
 	 */
 	public CarUpdateEvent(Object source)
 	{
-		//comparetivo
+		//comparetivo 2
 		super(source);
 	}
 }
