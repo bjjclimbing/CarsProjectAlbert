@@ -9,7 +9,7 @@
   
   <properties>
     <!-- Configuración para SonarCloud -->
-    <sonar.projectKey>bjjclimbing_CarsProjectAlbert</sonar.projectKey>
+    <sonar.projectKey>CarsProjectAlbert</sonar.projectKey>
     <sonar.organization>bjjclimbing</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
