@@ -23,8 +23,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <source>1.8</source> <!-- Especifica la versión de Java para el código fuente -->
-          <target>1.8</target> <!-- Especifica la versión de Java para el bytecode compilado -->
+          <source>9</source> <!-- Cambia la versión de origen a Java 9 o superior -->
+          <target>9</target> <!-- Cambia la versión de destino a Java 9 o superior -->
         </configuration>
       </plugin>
       
